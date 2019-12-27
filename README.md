@@ -14,7 +14,7 @@ create jar and run in hdfs cluster using below local commnd :
     1)  In local mode :
     spark-submit --class "stockhlm.data.process.ProcessStockhlm" --master local[*]  <jar File Path>/<jar_name.jar>
 
-OR  2) pull in as existing project/maven to eclipse/IntelliJ and run stockhlm.stockhlm_dataProc.processStockhlm scala object.
+OR  2) pull in as existing project/maven to eclipse/IntelliJ and run stockhlm.data.process.ProcessStockhlm scala object.
 
 #Results
 
